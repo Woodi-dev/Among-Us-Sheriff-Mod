@@ -22,10 +22,20 @@ You are not able to launch the game if the versions do not match.</li>
  
 <h2>Releases and Compatibility</h2>
  
- 
- 
- 
- 
+ <table style="width:100%">
+  <tr>
+    <th>Among Us Version</th>
+    <th>Mod Version</th>
+    <th>Link</th>
+  </tr>
+  <tr>
+    <td>v2020.12.9s (beta)</td>
+    <td>v1.01</td>
+    <td>50</td>
+  </tr>
+
+</table>
+
 <h2>Q&A</h2>
  
 <p><b>Can you play Proximity Chat (Crewlink) with it?</b></br>
@@ -40,6 +50,3 @@ You are also able to join your own custom server to be sure. <a href="https://gi
 Go to your game directory and open BepInEx/config/org.bepinex.plugins.SheriffMod.txt. There you can set the hostname or IP of the server. Then set the server region to CUSTOM.</p>
 <p><b>Do my friends need to install the mod to play it together?</b></br>
 Yes. Every player in the game lobby has to install it.</p>
-
-
-  
