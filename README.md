@@ -28,17 +28,15 @@ You are not able to launch the game if the versions do not match.</li>
  
 <h2>Q&A</h2>
  
-<b>Can you play Proximity Chat (Crewlink) with it?</b>
-Yes Crewlink does support Among Us Modifications.
- 
-<b>Why do i not publish the source code?</b>
+<p><b>Can you play Proximity Chat (Crewlink) with it?</b></br>
+Yes Crewlink does support Among Us Modifications.</p>
+<p><b>Why do i not publish the source code?</b></br>
 The source code and the modding technique i use allows complex modifications to the game.
-One may to use my code to create cheats. I do not want to support this and therefore this project is not open source.
-<b>Can you get banned for playing on public Servers?</b>
+One may to use my code to create cheats. I do not want to support this and therefore this project is not open source.</p>
+<p><b>Can you get banned for playing on public Servers?</b></br>
 At the current state of the game there is no ban system for the game. The mod is designed in a way that it does not send prohibited server requests.
-You are also able to join your own custom server. <a href="https://github.com/Impostor/Impostor">(Impostor)</a>
-One may to use my code to create cheats. I do not want to support this and therefore this project is not open source.
-<b>How can i join a custom server</b>
-Go to your game directory and open BepInEx/config/org.bepinex.plugins.SheriffMod.txt. There you can set the hostname or IP of the server. Then set the server region to CUSTOM.
+You are also able to join your own custom server. <a href="https://github.com/Impostor/Impostor">(Impostor)</a></p>
+<p><b>How can i join a custom server</b></br>
+Go to your game directory and open BepInEx/config/org.bepinex.plugins.SheriffMod.txt. There you can set the hostname or IP of the server. Then set the server region to CUSTOM.</p>
 
   
