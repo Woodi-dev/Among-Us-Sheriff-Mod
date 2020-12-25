@@ -31,7 +31,7 @@ You are not able to launch the game if the versions do not match.</li>
   <tr>
     <td>v2020.12.9s (beta)</td>
     <td>v1.01</td>
-    <td>50</td>
+    <td><a href="https://github.com/Woodi-dev/Sheriff-Mod/releases/tag/v2020.12.9s">Download</></td>
   </tr>
 
 </table>
@@ -50,3 +50,5 @@ You are also able to join your own custom server to be sure. <a href="https://gi
 Go to your game directory and open BepInEx/config/org.bepinex.plugins.SheriffMod.txt. There you can set the hostname or IP of the server. Then set the server region to CUSTOM.</p>
 <p><b>Do my friends need to install the mod to play it together?</b></br>
 Yes. Every player in the game lobby has to install it.</p>
+<p><h2>License</h2></br>
+This software is distributed under the <b>GNU GPLv3</b> License.</p>
