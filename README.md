@@ -7,7 +7,7 @@ He is able to kill Impostors. If he shoots a Crewmate, he will lose his life ins
 <h3>Additional Features</h3>
 <ul>
 <li> Visibility of the Sheriff can be set in the lobby game options menue</li>
-<li> Playable on Public Among Us Servers</li>
+<li> Playable on public Among Us Servers</li>
 <li> Custom server regions to join private servers</li>
 </ul>
 
@@ -34,9 +34,12 @@ Yes Crewlink does support Among Us Modifications.</p>
 The source code and the modding technique i use allows complex modifications to the game.
 One may to use my code to create cheats. I do not want to support this and therefore this project is not open source.</p>
 <p><b>Can you get banned for playing on public Servers?</b></br>
-At the current state of the game there is no ban system for the game. The mod is designed in a way that it does not send prohibited server requests.
-You are also able to join your own custom server. <a href="https://github.com/Impostor/Impostor">(Impostor)</a></p>
-<p><b>How can i join a custom server</b></br>
+At the current state of the game there is no perma ban system for the game. The mod is designed in a way, that it does not send prohibited server requests.
+You are also able to join your own custom server to be sure. <a href="https://github.com/Impostor/Impostor">(Impostor)</a></p>
+<p><b>How can i join a custom server?</b></br>
 Go to your game directory and open BepInEx/config/org.bepinex.plugins.SheriffMod.txt. There you can set the hostname or IP of the server. Then set the server region to CUSTOM.</p>
+<p><b>Do my friends need to install the mod to play it together?</b></br>
+Yes. Every player in the game lobby has to install it.</p>
+
 
   
