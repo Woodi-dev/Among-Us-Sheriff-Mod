@@ -11,9 +11,10 @@ He is able to kill Impostors. If he shoots a Crewmate, he will lose his life ins
 <li> Custom server regions to join private servers</li>
 </ul>
 
-<h2> Installation </h2<
+<h2> Installation </h2>
 <ul>
 <li>Download the Mod for your specific game version under:
 You are not able to launch the game if the versions do not match./li>
 <li>Make a copy of your game root directory (Steam/steamapps/common/Among Us) and rename it to whatever you want ((Steam/steamapps/common/Among Us Sheriff Mod) </li>
  <li>Extract the content of .zip into the copied folder you created</li>
+ </ul>
