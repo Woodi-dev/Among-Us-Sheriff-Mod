@@ -16,7 +16,7 @@ He is able to kill Impostors. If he shoots a Crewmate, he will lose his life ins
 <li>Download the Mod for your specific game version. You are not able to launch the game if the versions do not match.</li>
 <li>Make a copy of your game’s root directory (Steam/steamapps/common/Among Us) and rename it to whatever you want (Steam/steamapps/common/Among Us Sheriff Mod) </li>
 <li>Extract the content of Among Us Sheriff Mod.zip into the copied folder you created</li>
-<li>Open your modded folder and open the Game via Among Us.exe</li>
+<li>Open your modded folder and open the Game via Among Us.exe to start the game</li>
 </ul>
  
 <h2>Releases and Compatibility</h2>
