@@ -41,7 +41,7 @@ He is able to kill Impostors. If he shoots a Crewmate, he will lose his life ins
 Yes Crewlink does support Among Us Modifications.</p>
 <p><b>Why do i not publish the source code?</b></br>
 The source code and the modding technique i use allows complex modifications to the game.
-One may to use my code to create cheats. I do not want to support this and therefore this project is not open source.</p>
+One may to use my code to create cheats. I do not want to support this and therefore this project is not open source at the moment.</p>
 <p><b>Can you get banned for playing on public Servers?</b></br>
 At the current state of the game there is no perma ban system for the game. The mod is designed in a way, that it does not send prohibited server requests.
 You are also able to join your own custom server to be sure. <a href="https://github.com/Impostor/Impostor">(Impostor)</a></p>
