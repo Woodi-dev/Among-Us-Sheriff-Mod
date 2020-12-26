@@ -28,7 +28,7 @@ He is able to kill Impostors. If he shoots a Crewmate, he will lose his life ins
     <th>Link</th>
   </tr>
   <tr>
-    <td>v2020.12.9s (beta)</td>
+    <td>v2020.12.9s</td>
     <td>v1.01</td>
     <td><a href="https://github.com/Woodi-dev/Sheriff-Mod/releases/download/v2020.12.9s/Among.Us.Sheriff.Mod.1.01.zip">Download</></td>
   </tr>
