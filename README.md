@@ -49,5 +49,12 @@ You are also able to join your own custom server to be sure. <a href="https://gi
 Go to your game directory and open BepInEx/config/org.bepinex.plugins.SheriffMod.txt. There you can set the hostname or IP of the server. Then set the server region to CUSTOM.</p>
 <p><b>Do my friends need to install the mod to play it together?</b></br>
 Yes. Every player in the game lobby has to install it.</p>
+<h2>Donate</h2>
+
+<a href="https://www.paypal.com/donate?hosted_button_id=TWGK7A9VBVPRU"><img src ="https://www.paypalobjects.com/en_US/DK/i/btn/btn_donateCC_LG.gif" alt="Donate with PayPal button" ></img></a>
+
+
+I would appreciate any donations. This will help me to develop more mods.
+
 <h2>License</h2>
 This software is distributed under the <b>GNU GPLv3</b> License.
