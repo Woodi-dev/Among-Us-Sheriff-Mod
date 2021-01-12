@@ -58,4 +58,5 @@ I would appreciate any donations. This will help me to develop more mods.
 
 For exclusive modding requests contact me: <a href="mailto:Woodi-dev@gmx.de">Woodi-dev@gmx.de</a>
 <h2>License</h2>
-This software is distributed under the <b>GNU GPLv3</b> License.
+<p>This software is distributed under the <b>GNU GPLv3</b> License.
+<a href="https://github.com/BepInEx/BepInEx">BepinEx</a> is distributed under <b>LGPL-2.1</b> License.</p>
