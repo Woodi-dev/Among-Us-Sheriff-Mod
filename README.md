@@ -39,6 +39,16 @@ He is able to kill Impostors. If he shoots a Crewmate, he will lose his life ins
   </tr>
 
 </table>
+<details>
+  <summary>Changelog</summary>
+   <h3>v1.1</h3>
+   <ul>
+    <li>Added Sheriff kill cooldown option to the game lobby</li>
+    <li>Added q shortcut to kill as Sheriff</li>
+    <li>Kill distance of impostor and Sheriff are now the same/li>
+    <li>Several bugfixes for nullpointer exceptions</li> 
+   </ul>
+</details>
 
 <h2>Q&A</h2>
  
