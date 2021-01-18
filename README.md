@@ -47,7 +47,7 @@ He is able to kill Impostors. If he shoots a Crewmate, he will lose his life ins
     <li>Added q shortcut to kill as Sheriff</li>
     <li>Kill distance of Impostor and Sheriff are now the same</li>
     <li>Fixed a bug where the outline of the target disappears (Impostor)</li>
-    <li>Serveral nullpointer bugfixes</li>
+    <li>Several nullpointer bugfixes</li>
    </ul>
 </details>
 
