@@ -6,7 +6,7 @@ Sheriff Mod is an Among Us modification for Windows, which adds a new Crewmate c
 He is able to kill Impostors. If he shoots a Crewmate, he will lose his life instead.
 <h3>Additional Features</h3>
 <ul>
-<li> Visibility of the Sheriff can be set in the lobby game options menue</li>
+<li> Visibility of the Sheriff can be set in the lobby game options menu</li>
 <li> Playable on public Among Us Servers</li>
 <li> Custom server regions to join private servers</li>
 </ul>
