@@ -18,10 +18,10 @@ He is able to kill Impostors. If he shoots a Crewmate, he will lose his life ins
 <li>Extract the content of Among Us Sheriff Mod.zip into the copied folder you created</li>
 <li>Open your modded folder and open the Game via Among Us.exe</li>
 </ul>
-<p>To check if installation succeed<p>
+<p>Verifying installation success<p>
 <ul>
   <li>Launch the Game via Among Us.exe.
-  <li>On top, left corner, below among us version you should see <em>loaded Sheriff Mod vx.y by Woodi </em>
+  <li>In the top-left corner, below Among Us version, you should see <em>loaded Sheriff Mod vx.y by Woodi </em>
 </ul>
 <p>If you don't see this message please take a look at our 
   <a href="#troubleshooting">troubleshooting section</a>.
@@ -83,15 +83,15 @@ For exclusive modding requests contact me: <a href="mailto:Woodi-dev@gmx.de">Woo
 
 <p><b>I can't see <em>loaded</em> message on my game screen</b></br>
 <ol>
-  <li>Make sure you followed all <a href="#installation">instalation steps</a>, especially launching game via Among Us.exe file</li>
-  <li>You migh missing some cpp libs, please install 
+  <li>Make sure you have followed all the <a href="#installation">installation steps</a>, especially launching the game via the Among Us.exe file</li>
+  <li>You might be missing some cpp libs (software libraries used by the mod); please install 
     <a href="https://aka.ms/vs/16/release/vc_redist.x86.exe">visual studio c++</a>
   </li>
 </ol>
 </p>
 
 <p><b>I can't find my issue.</b></br>
-You can add a <a href="https://github.com/Woodi-dev/Among-Us-Sheriff-Mod/issues/new">github issue</a> explaining your case once loged in.
+You can <a href="https://github.com/Woodi-dev/Among-Us-Sheriff-Mod/issues/new">raise an issue within GitHub</a> documenting your issue. You will need to be logged into GitHub to do this.
 </p>
 
 <h2>License</h2>
