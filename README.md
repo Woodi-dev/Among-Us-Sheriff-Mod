@@ -11,13 +11,21 @@ He is able to kill Impostors. If he shoots a Crewmate, he will lose his life ins
 <li> Custom server regions to join private servers</li>
 </ul>
 
-<h2> Installation </h2>
+<h2 id="installation"> Installation </h2>
 <ul>
 <li>Download the Mod for your specific game version. You are not able to launch the game if the versions do not match.</li>
 <li>Make a copy of your game’s root directory (Steam/steamapps/common/Among Us) and rename it to whatever you want (Steam/steamapps/common/Among Us Sheriff Mod) </li>
 <li>Extract the content of Among Us Sheriff Mod.zip into the copied folder you created</li>
 <li>Open your modded folder and open the Game via Among Us.exe</li>
 </ul>
+<p>To check if installation succeed<p>
+<ul>
+  <li>Launch the Game via Among Us.exe.
+  <li>On top, left corner, below among us version you should see <em>loaded Sheriff Mod vx.y by Woodi </em>
+</ul>
+<p>If you don't see this message please take a look at our 
+  <a href="#troubleshooting">troubleshooting section</a>.
+</p>
  
 <h2>Releases and Compatibility</h2>
  
@@ -70,6 +78,22 @@ Yes. Every player in the game lobby has to install it.</p>
 I would appreciate any donations. This will help me to develop more mods.
 
 For exclusive modding requests contact me: <a href="mailto:Woodi-dev@gmx.de">Woodi-dev@gmx.de</a>
+
+<h2 id="troubleshooting">Troubleshooting</h2>
+
+<p><b>I can't see <em>loaded</em> message on my game screen</b></br>
+<ol>
+  <li>Make sure you followed all <a href="#installation">instalation steps</a>, especially launching game via Among Us.exe file</li>
+  <li>You migh missing some cpp libs, please install 
+    <a href="https://aka.ms/vs/16/release/vc_redist.x86.exe">visual studio c++</a>
+  </li>
+</ol>
+</p>
+
+<p><b>I can't find my issue.</b></br>
+You can add a <a href="https://github.com/Woodi-dev/Among-Us-Sheriff-Mod/issues/new">github issue</a> explaining your case once loged in.
+</p>
+
 <h2>License</h2>
 <p>This software is distributed under the <b>GNU GPLv3</b> License.
 <a href="https://github.com/BepInEx/BepInEx">BepinEx</a> is distributed under <b>LGPL-2.1</b> License.</p>
