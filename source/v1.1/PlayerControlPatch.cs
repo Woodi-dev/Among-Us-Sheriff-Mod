@@ -184,7 +184,7 @@ namespace SheriffMod
                 if (player.PlayerId != refplayer.PlayerId)
                 {
 
-                    double dist = getDistBetweenPlayers(player, refplayer);
+                    double dist = getDistBetweenPlayersHeuristic(player, refplayer);
                     if (dist < mindist)
                     {
                         mindist = dist;
@@ -198,12 +198,12 @@ namespace SheriffMod
 
         }
 
-        public static double getDistBetweenPlayers(FFGALNAPKCD player, FFGALNAPKCD refplayer)
+        public static double getDistBetweenPlayersHeuristic(FFGALNAPKCD player, FFGALNAPKCD refplayer)
         {
             var refpos = refplayer.GetTruePosition();
             var playerpos = player.GetTruePosition();
 
-            return Math.Sqrt((refpos[0] - playerpos[0]) * (refpos[0] - playerpos[0]) + (refpos[1] - playerpos[1]) * (refpos[1] - playerpos[1]));
+            return (refpos[0] - playerpos[0]) * (refpos[0] - playerpos[0]) + (refpos[1] - playerpos[1]) * (refpos[1] - playerpos[1]);
         }
 
         [HarmonyPatch(typeof(FFGALNAPKCD), "RpcSetInfected")]
