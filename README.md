@@ -58,7 +58,7 @@ The Sheriff is able to kill Impostors. If they shoot a Crewmate, they will lose 
     <li>Several nullpointer bugfixes</li>
    </ul>
 </details>
-Check out Sheriff Mod on CurseForge: <a href="https://www.curseforge.com/among-us/mods/sheriff-mod">https://www.curseforge.com/among-us/mods/sheriff-mod</a>
+Check out Sheriff Mod on CurseForge: <a href="https://www.curseforge.com/among-us/all-mods/sheriff-mod">https://www.curseforge.com/among-us/all-mods/sheriff-mod</a>
 <h2>Q&A</h2>
  
 <p><b>Can you play Proximity Chat (Crewlink) with it?</b></br>
