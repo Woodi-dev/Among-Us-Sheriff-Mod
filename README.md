@@ -57,6 +57,7 @@ The Sheriff is able to kill Impostors. If they shoot a Crewmate, they will lose 
   <h3>v1.2</h3>
    <ul>
     <li>Sheriff no longer can kill Impostors hiding in vents.</li>
+    <li>Sheriff no longer can kill if they do not see their target</li>
     <li>Sheriff cannot kill during meeting and tasks</li>
     <li>Sheriff kill cooldown does not count down anymore during tasks</li>
     <li>Bugfix: Show Sheriff option disapears in Game Settings tab</li>
