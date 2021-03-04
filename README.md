@@ -35,6 +35,11 @@ The Sheriff is able to kill Impostors. If they shoot a Crewmate, they will lose 
     <th>Mod Version</th>
     <th>Link</th>
   </tr>
+     <tr>
+    <td>v2020.12.9s</td>
+    <td>v1.2</td>
+    <td><a href="https://github.com/Woodi-dev/Among-Us-Sheriff-Mod/releases/download/v1.2/Among.Us.Sheriff.Mod.v1.2.zip">Download</></td>
+  </tr>
    <tr>
     <td>v2020.12.9s</td>
     <td>v1.1</td>
@@ -49,6 +54,14 @@ The Sheriff is able to kill Impostors. If they shoot a Crewmate, they will lose 
 </table>
 <details>
   <summary>Changelog</summary>
+  <h3>v1.2</h3>
+   <ul>
+    <li>Sheriff no longer can kill Impostors hiding in vents.</li>
+    <li>Sheriff cannot kill during meeting and tasks</li>
+    <li>Sheriff kill cooldown does not count down anymore during tasks</li>
+    <li>Bugfix: Show Sheriff option disapears in Game Settings tab</li>
+    <li>More stable Net Code (Sometimes players do not become Sheriff)</li>
+   </ul>
    <h3>v1.1</h3>
    <ul>
     <li>Added Sheriff kill cooldown option to the game lobby</li>
