@@ -65,6 +65,11 @@ The Sheriff is able to kill Impostors. If they shoot a Crewmate, they will lose 
 </table>
 <details>
   <summary>Changelog</summary>
+    <h3>v1.21</h3>
+   <ul>
+    <li>Fixed a bug: custom server region name is South America</li>
+
+   </ul>
   <h3>v1.2</h3>
    <ul>
     <li>Sheriff no longer can kill Impostors hiding in vents.</li>
