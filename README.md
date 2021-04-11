@@ -80,6 +80,11 @@ The Sheriff is able to kill Impostors. If they shoot a Crewmate, they will lose 
 </table>
 <details>
   <summary>Changelog</summary>
+        <h3>v1.23</h3>
+   <ul>
+    <li>Fixed a bug: Kill button visible in meetings</li>
+
+   </ul>
       <h3>v1.22</h3>
    <ul>
     <li>Fixed a bug: Custom Sheriff Settings are not visible if language is not set to english</li>
