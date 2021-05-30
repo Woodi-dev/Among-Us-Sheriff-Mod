@@ -35,6 +35,11 @@ The Sheriff is able to kill Impostors. If they shoot a Crewmate, they will lose 
     <th>Mod Version</th>
     <th>Link</th>
           </tr>
+     <tr>
+    <td>v2021.5.25.2s</td>
+    <td>v1.23</td>
+    <td><a href="https://github.com/Woodi-dev/Among-Us-Sheriff-Mod/releases/download/v1.23_2021.5.25.2s/Among.Us.Sheriff.Mod.v1.23.v2021.5.25.2s.zip">Download</></td>
+  </tr>
         <tr>
     <td>v2021.5.10s</td>
     <td>v1.23</td>
@@ -51,47 +56,7 @@ The Sheriff is able to kill Impostors. If they shoot a Crewmate, they will lose 
     <td>v1.23</td>
     <td><a href="https://github.com/Woodi-dev/Among-Us-Sheriff-Mod/releases/download/v1.23_2021.4.12s/Among.Us.Sheriff.Mod.v1.23.v2021.4.12s.zip">Download</></td>
   </tr>
-           <tr>
-    <td>v2021.3.31.3s (Not stable)</td>
-    <td>v1.23</td>
-    <td><a href="https://github.com/Woodi-dev/Among-Us-Sheriff-Mod/releases/download/v1.23_2021.3.31.3s/Among.Us.Sheriff.Mod.v1.23.v2021.3.31.3s.rar">Download</></td>
-  </tr>
-         <tr>
-    <td>v2021.3.31.3s (Not stable)</td>
-    <td>v1.22</td>
-    <td><a href="https://github.com/Woodi-dev/Among-Us-Sheriff-Mod/releases/download/v1.22_2021.3.31.3s/Among.Us.Sheriff.Mod.v1.22.v2021.3.31.3s.zip">Download</></td>
-  </tr>
-       <tr>
-    <td>v2021.3.5s</td>
-    <td>v1.22</td>
-    <td><a href="https://github.com/Woodi-dev/Among-Us-Sheriff-Mod/releases/download/v1.22_2021.3.5s/Among.Us.Sheriff.Mod.v1.22.zip">Download</></td>
-  </tr>
-     <tr>
-    <td>v2021.3.5s</td>
-    <td>v1.21</td>
-    <td><a href="https://github.com/Woodi-dev/Among-Us-Sheriff-Mod/releases/download/v1.21_2021.3.5s/Among.Us.Sheriff.Mod.v1.21.zip">Download</></td>
-  </tr>
-     <tr>
-    <td>v2021.3.5s</td>
-    <td>v1.2</td>
-    <td><a href="https://github.com/Woodi-dev/Among-Us-Sheriff-Mod/releases/download/v1.2_2021.3.5s/Among.Us.Sheriff.Mod.v1.2.2021.3.5s.zip">Download</></td>
-  </tr>
-  </tr>
-     <tr>
-    <td>v2020.12.9s</td>
-    <td>v1.2</td>
-    <td><a href="https://github.com/Woodi-dev/Among-Us-Sheriff-Mod/releases/download/v1.2/Among.Us.Sheriff.Mod.v1.2.zip">Download</></td>
-  </tr>
-   <tr>
-    <td>v2020.12.9s</td>
-    <td>v1.1</td>
-    <td><a href="https://github.com/Woodi-dev/Among-Us-Sheriff-Mod/releases/download/v1.1/Among.Us.Sheriff.Mod.1.1.zip">Download</></td>
-  </tr>
-  <tr>
-    <td>v2020.12.9s</td>
-    <td>v1.01</td>
-    <td><a href="https://github.com/Woodi-dev/Sheriff-Mod/releases/download/v2020.12.9s/Among.Us.Sheriff.Mod.1.01.zip">Download</></td>
-  </tr>
+
 
 </table>
 <details>
