@@ -6,16 +6,8 @@ using System;
 using System.Linq;
 using System.Net;
 
-
 namespace SheriffMod
 {
-
-
-
-
-
-
-
     [BepInPlugin("org.bepinex.plugins.SheriffMod", "Sheriff Mod", "1.2.3.0")]
     public class SheriffMod : BasePlugin
     {
@@ -25,13 +17,12 @@ namespace SheriffMod
         public static ConfigEntry<string> Ip { get; set; }
         public static ConfigEntry<ushort> Port { get; set; }
 
-
         public SheriffMod()
         {
             log = Log;
             this.harmony = new Harmony("Sheriff Mod");
-
         }
+
         public override void Load()
         {
             log.LogMessage("Sheriff Mod loaded");
@@ -59,52 +50,17 @@ namespace SheriffMod
                 {
                     log.LogMessage("Hostname could not be resolved" + ip);
                 }
-
                 log.LogMessage("IP is " + ip);
-
             }
 
-
             var port = Port.Value;
-        
+
             //adding custom server region
-            defaultRegions.Insert(defaultRegions.Count, new StaticRegionInfo(
-                Name.Value, (StringNames)CustomStringNames.CustomServerName, ip, new[]
-                {
-                    new ServerInfo($"{Name.Value}-Master-1", ip, port)
-                }).Duplicate()
-            ) ;
+            var info = new StaticRegionInfo(Name.Value, (StringNames)CustomStringNames.CustomServerName, ip, new[] {new ServerInfo($"{Name.Value}-Master-1", ip, port)});
+            defaultRegions.Add(info.Duplicate());
 
             ServerManager.DefaultRegions = defaultRegions.ToArray();
-            
-
             this.harmony.PatchAll();
-
-
         }
     }
-
-
-
-
-   
-
-
-
-    
-
-
-
-
-
-
-
-   
-
-
-   
-
 }
-
-
-

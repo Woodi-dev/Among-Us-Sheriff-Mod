@@ -4,10 +4,6 @@ using System.Linq;
 using UnhollowerBaseLib;
 using UnityEngine;
 
-
-
-
-
 namespace SheriffMod
 {
     [HarmonyPatch(typeof(GameOptionsMenu))]
@@ -22,26 +18,24 @@ namespace SheriffMod
         [HarmonyPatch("Start")]
         public static void Postfix1(GameOptionsMenu __instance)
         {
-
             instance = __instance;
             CustomPlayerMenuPatch.AddOptions();
-
         }
+
         //Not a good solution, but works. Set both options to the bottom.
         [HarmonyPostfix]
         [HarmonyPatch("Update")]
         public static void Postfix2(GameOptionsMenu __instance)
         {
-    
             OptionBehaviour option = __instance.Children[__instance.Children.Count - 3];
 
             if (SheriffCooldown != null & showSheriffOption != null){
                 showSheriffOption.transform.position = option.transform.position - new Vector3(0, 0.5f, 0);
                 SheriffCooldown.transform.position = option.transform.position - new Vector3(0, 1f, 0);
             }
-
         }
     }
+
     //Change the toggle behaviour of our custom options.
     [HarmonyPatch]
     public static class ToggleButtonPatch
@@ -49,7 +43,6 @@ namespace SheriffMod
         [HarmonyPatch(typeof(ToggleOption), "Toggle")]
         public static bool Prefix(ToggleOption __instance)
         {
-
             if (__instance.TitleText.text == "Show Sheriff")
             {
                 CustomGameOptions.showSheriff = !CustomGameOptions.showSheriff;
@@ -58,15 +51,12 @@ namespace SheriffMod
                 __instance.oldValue = CustomGameOptions.showSheriff;
                 __instance.CheckMark.enabled = CustomGameOptions.showSheriff;
                 return false;
-
             }
             return true;
-
         }
-
     }
-    //Change the increase/decrease behaviour of our custom options.
 
+    //Change the increase/decrease behaviour of our custom options.
     [HarmonyPatch(typeof(NumberOption))]
     public static class NumberOptionPatch
     {
@@ -83,7 +73,6 @@ namespace SheriffMod
                 GameOptionMenuPatch.SheriffCooldown.ValueText.text = CustomGameOptions.SheriffKillCD.ToString();
                 return false;
             }
-
             return true;
         }
 
@@ -91,20 +80,15 @@ namespace SheriffMod
         [HarmonyPatch("Decrease")]
         public static bool Prefix2(NumberOption __instance)
         {
-
             if (__instance.TitleText.text == "Sheriff Kill Cooldown")
             {
                 CustomGameOptions.SheriffKillCD = Math.Max(CustomGameOptions.SheriffKillCD - 2.5f, 10);
-
                 PlayerControl.LocalPlayer.RpcSyncSettings(PlayerControl.GameOptions);
                 GameOptionMenuPatch.SheriffCooldown.oldValue = CustomGameOptions.SheriffKillCD;
                 GameOptionMenuPatch.SheriffCooldown.Value = CustomGameOptions.SheriffKillCD;
                 GameOptionMenuPatch.SheriffCooldown.ValueText.text = CustomGameOptions.SheriffKillCD.ToString();
-
-
                 return false;
             }
-
             return true;
         }
     }
@@ -142,11 +126,9 @@ namespace SheriffMod
                 options[options.Length - 2] = GameOptionMenuPatch.showSheriffOption;
                 options[options.Length - 1] = GameOptionMenuPatch.SheriffCooldown;
                 GameOptionMenuPatch.instance.Children = new Il2CppReferenceArray<OptionBehaviour>(options);
-
             }
             else
             {
-                
                 GameOptionMenuPatch.SheriffCooldown.gameObject.SetActive(true);
                 GameOptionMenuPatch.showSheriffOption.gameObject.SetActive(true);
             }
@@ -172,17 +154,13 @@ namespace SheriffMod
         [HarmonyPatch("OpenTab")]
         public static void Prefix1(GameObject tab)
         {
-            
-            if (tab.name == "GameGroup" && GameOptionMenuPatch.instance!=null)
+            if (tab.name == "GameGroup" && GameOptionMenuPatch.instance != null)
             {
                 AddOptions();
             }
             else {
                 deleteOptions(false);
             }
-            
         }
-
     }
 }
-

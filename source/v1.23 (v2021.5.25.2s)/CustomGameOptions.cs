@@ -5,6 +5,5 @@ namespace SheriffMod
     {
         public static bool showSheriff=false;
         public static float SheriffKillCD=30.0f;
-
     }
 }

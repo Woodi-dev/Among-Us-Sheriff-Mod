@@ -1,31 +1,25 @@
 ﻿using System.Collections.Generic;
 
-
-
 namespace SheriffMod
 {
     public class PlayerController
     {
-        public static List<Player> players;
+        public static List<Player> players = new List<Player>();
         public static Player LocalPlayer;
+
         public static void Update()
         {
-            if (players != null)
+            foreach (Player player in players)
             {
-                foreach (Player player in players)
-                {
-                    if(player.playerdata!=null)
-                    player.Update();
-                }
+                player.Update();
             }
         }
 
         public static void InitPlayers()
         {
-            players = new List<Player>();
+            players.Clear();
             foreach (PlayerControl player in PlayerControl.AllPlayerControls)
             {
-
                 Player p = new Player(player);
                 if (player.PlayerId == PlayerControl.LocalPlayer.PlayerId)
                 {
@@ -33,12 +27,10 @@ namespace SheriffMod
                 }
                 players.Add(p);
             }
-
         }
 
         public static Player getPlayerById(byte id)
         {
-            if (players == null) return null;
             foreach (Player player in players)
             {
                 if (player.PlayerId == id)
@@ -48,52 +40,5 @@ namespace SheriffMod
             }
             return null;
         }
-
-        public static Player getPlayerByName(string name)
-        {
-            if (players == null) return null;
-            foreach (Player player in players)
-            {
-                if (player.playerdata.name==name)
-                {
-                    return player;
-                }
-            }
-            return null;
-        }
-
-        public static Player getLocalPlayer()
-        {
-            if (players == null) return null;
-            foreach (Player player in players)
-            {
-                if (player.playerdata == PlayerControl.LocalPlayer)
-                {
-                    return player;
-                }
-            }
-            return null;
-        }
-        public static Player[] getPlayersWithComponent(string name)
-        {
-            List<Player> p = new List<Player>();
-            foreach (Player player in players)
-            {
-                foreach (PlayerComponent component in player.components)
-                    {
-                        if (component.name == name)
-                        {
-                            p.Add(player);
-                        }
-                    }
-            }
-            return p.ToArray();
-
-
-        }
-
-
-
     }
-    
 }
