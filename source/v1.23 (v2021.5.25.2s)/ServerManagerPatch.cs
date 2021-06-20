@@ -10,17 +10,10 @@ namespace SheriffMod
     {
         [HarmonyPrefix]
         [HarmonyPatch("LoadServers")]
-
-        public static bool Prefix1(ServerManager __instance) {
-
+        public static bool Prefix1(ServerManager __instance)
+        {
              __instance.StartCoroutine(__instance.ReselectRegionFromDefaults());
             return false;
-
         }
-
-
-
-       
     }
-   
 }

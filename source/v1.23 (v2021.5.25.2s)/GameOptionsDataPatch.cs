@@ -5,8 +5,6 @@ namespace SheriffMod
     [HarmonyPatch(typeof(GameOptionsData))]
     public class GameOptionsDataPatch
     {
-
-
         //Update lobby options text
         [HarmonyPostfix]
         [HarmonyPatch("ToHudString")]
@@ -17,11 +15,6 @@ namespace SheriffMod
             else
                __result+="Show Sheriff: Off" + "\n";
            __result+= "Sheriff Kill Cooldown: " + CustomGameOptions.SheriffKillCD.ToString() + "s";
-
         }
-
-       
     }
-    
-    
 }

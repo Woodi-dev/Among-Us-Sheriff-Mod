@@ -1,78 +1,44 @@
 ﻿using System.Collections.Generic;
 
-
 namespace SheriffMod
 {
     public class Player
     {
         public PlayerControl playerdata;
-        public List<PlayerComponent> components;
+        public PlayerComponent component;
         public int PlayerId;
 
         public Player(PlayerControl playerdata)
         {
             this.playerdata = playerdata;
-            components = new List<PlayerComponent>();
             this.PlayerId = playerdata.PlayerId;
-
         }
+
+        public void setComponent(PlayerComponent component)
+        {
+            this.component = component;
+        }
+
         public void Update() {
-            foreach(PlayerComponent component in components)
+            if (component != null)
             {
-
                 component.Update();
-
             }
-        }
-        public void RemoveComponent(PlayerComponent comp)
-        {
-            comp.Destroy();
-            components.Remove(comp);
-        }
-        public PlayerComponent GetComponentByName(string name)
-        {
-
-            if (components == null) return null;
-            foreach (PlayerComponent component in components)
-            {
-                if (component.name == name)
-                {
-                    return component;
-                }
-            }
-            return null;
-        }
-        public bool hasComponent(string name)
-        {
-            foreach (PlayerComponent component in components)
-            {
-                if (component != null)
-                {
-                    if (component.name == name)
-                    {
-                        return true;
-                    }
-                }
-            }
-            return false;
         }
 
-        public bool isImpostor()
+        public bool isSheriff()
         {
-            if (playerdata != null)
-            {
-                return playerdata.Data.IsImpostor;
-            }
-            return false;
+            return component != null && component.name == "Sheriff";
+        }
+
+        public bool isImposter()
+        {
+            return playerdata.Data.IsImpostor;
         }
 
         public bool isAlive()
         {
-            if (playerdata != null)
-            {
-                return !playerdata.Data.IsDead;
-            }
-            return false;
+            return !playerdata.Data.IsDead;
         }
     }
 }
