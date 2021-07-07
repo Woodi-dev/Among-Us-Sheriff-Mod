@@ -35,6 +35,11 @@ The Sheriff is able to kill Impostors. If they shoot a Crewmate, they will lose 
     <th>Mod Version</th>
     <th>Link</th>
           </tr>
+         <tr>
+    <td>v2021.6.30s</td>
+    <td>v1.24</td>
+    <td><a href="https://github.com/Woodi-dev/Among-Us-Sheriff-Mod/releases/download/v1.24_2021.6.30s/Among.Us.Sheriff.Mod.v1.24.v2021.6.30s.zip">Download</></td>
+  </tr>
        <tr>
     <td>v2021.6.15s</td>
     <td>v1.23</td>
