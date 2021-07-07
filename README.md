@@ -71,6 +71,11 @@ The Sheriff is able to kill Impostors. If they shoot a Crewmate, they will lose 
 </table>
 <details>
   <summary>Changelog</summary>
+          <h3>v1.24</h3>
+   <ul>
+    <li>Added Innersloth mod stamp</li>
+
+   </ul>
         <h3>v1.23</h3>
    <ul>
     <li>Fixed a bug: Kill button visible in meetings</li>
@@ -143,4 +148,6 @@ You can <a href="https://github.com/Woodi-dev/Among-Us-Sheriff-Mod/issues/new">r
 
 <h2>License</h2>
 <p>This software is distributed under the <b>GNU GPLv3</b> License.
-<a href="https://github.com/BepInEx/BepInEx">BepinEx</a> is distributed under <b>LGPL-2.1</b> License.</p>
+<a href="https://github.com/BepInEx/BepInEx">BepinEx</a> is distributed under <b>LGPL-2.1</b> License. </br>
+This mod is not affiliated with Among Us or Innersloth LLC, and the content contained therein is not endorsed or otherwise sponsored by Innersloth LLC. Portions of the materials contained herein are property of Innersloth LLC. © Innersloth LLC.</p>
+
